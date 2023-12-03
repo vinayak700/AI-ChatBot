@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
   window.scrollTo(0, document.body.scrollHeight);
 
-  const response = await fetch('http://localhost:5000/', {
+  const response = await fetch('https://ai-chatbot-7sgy.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
